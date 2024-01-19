@@ -1,0 +1,9 @@
+<div>
+    <form>
+      <label for="firstFile">ChooseFirst</label>
+      <input type="file" formControlName = "firstFile" (change)="file1($event)"><br>
+      <label for="secondFile">ChooseFirst</label>
+      <input type="file" formControlName = "secondFile" (change)="file2($event)"><br>
+      <button (click)="calculateHr($event)">Calculate</button>
+    </form>
+  </div>
